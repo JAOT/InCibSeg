@@ -30,12 +30,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 96,
       "layer": "",
       "locked": false,
-      "name": "txtConfidencialidade",
+      "name": "defConfidencialidade",
       "persistentUuid": "dcc77c40-d519-43cc-9f2b-f28c98424e3a",
-      "width": 736,
+      "width": 544,
       "x": 32,
       "y": 32,
       "zOrder": 1,
@@ -49,12 +49,12 @@
       "height": 96,
       "layer": "",
       "locked": false,
-      "name": "txtIntegridade",
+      "name": "defIntegridade",
       "persistentUuid": "3eedb311-c07f-4846-940a-ea5df8741121",
-      "width": 736,
+      "width": 512,
       "x": 32,
       "y": 160,
-      "zOrder": 2,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -65,12 +65,12 @@
       "height": 160,
       "layer": "",
       "locked": false,
-      "name": "txtAcesso",
+      "name": "defAcesso",
       "persistentUuid": "ed7d8a67-261c-40c2-aa9b-67c5e695e5da",
-      "width": 736,
+      "width": 512,
       "x": 32,
       "y": 320,
-      "zOrder": 3,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -81,12 +81,12 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Acesso",
-      "persistentUuid": "639acf39-3320-4555-81c6-20a6a8722c9f",
+      "name": "txtAcesso",
+      "persistentUuid": "98b2cd24-a2ef-4085-93b2-f133aae90d85",
       "width": 0,
-      "x": 75,
-      "y": 544,
-      "zOrder": 15,
+      "x": 62,
+      "y": 521,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -97,12 +97,12 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Confidencialidade",
-      "persistentUuid": "28fb0d88-b6ab-46c7-a641-535ef27f634d",
+      "name": "txtIntegridade",
+      "persistentUuid": "b4e1e12f-e535-42f4-b408-fadabd70a922",
       "width": 0,
-      "x": 343,
-      "y": 544,
-      "zOrder": 16,
+      "x": 320,
+      "y": 521,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -113,12 +113,60 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Integridade",
-      "persistentUuid": "eeba10da-ee2b-4888-8272-c18528af0079",
+      "name": "txtConfidencialidade",
+      "persistentUuid": "66176df8-ace2-4fbf-bcfd-35b52d520360",
       "width": 0,
-      "x": 631,
-      "y": 544,
-      "zOrder": 17,
+      "x": 576,
+      "y": 521,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "RespostaAcesso",
+      "persistentUuid": "e539e03e-b94a-413f-a00b-c759883d192b",
+      "width": 192,
+      "x": 576,
+      "y": 384,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "RespostaIntegridade",
+      "persistentUuid": "66b4131e-02c5-41df-8216-ff79d8464dd7",
+      "width": 192,
+      "x": 576,
+      "y": 160,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "RespostaConfidencialidade",
+      "persistentUuid": "4e32eda8-21de-47cd-8aa7-8e1125ba7f9b",
+      "width": 192,
+      "x": 576,
+      "y": 32,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -128,7 +176,7 @@
     {
       "bold": false,
       "italic": false,
-      "name": "txtConfidencialidade",
+      "name": "defConfidencialidade",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -148,7 +196,7 @@
     {
       "bold": false,
       "italic": false,
-      "name": "txtIntegridade",
+      "name": "defIntegridade",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -156,7 +204,27 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Garantir que as suas informações permanecem intactas e que ninguém insere, modifica ou elimina os seus dados sem a sua permissão. Por exemplo, alterar mal intencionadamente um número numa primeira vez.",
+      "string": "Garantir que as suas informações permanecem intactas e que ninguém insere, modifica ou elimina os seus dados sem a sua permissão. Por exemplo, alterar de forma mal intencionada um valor numa folha de cálculo.",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "defAcesso",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Garantir que pode aceder às suas informações e sistemas quando precisar. Um exemplo de um problema de acesso seria um ataque denial of service, em que os atacantes sobrecarregam o seu sistema com tráfego de rede para que o acesso seja praticamente impossível; ou um ransomware que encripta o sistema e impede a sua utilização.",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -175,8 +243,14 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "string": "Garantir que pode aceder às suas informações e sistemas quando precisar. Um exemplo de um problema de acesso seria um ataque denial of service, em que os atacantes sobrecarregam o seu sistema com o tráfego de rede para que o acesso seja praticamente impossível; ou um ransomware que encripta o sistema e o impede de utilizá-lo.",
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
+      "string": "Acesso",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -186,10 +260,13 @@
       }
     },
     {
-      "name": "Acesso",
+      "bold": false,
+      "italic": false,
+      "name": "txtIntegridade",
+      "smoothed": true,
       "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [
@@ -199,18 +276,61 @@
           "type": "DraggableBehavior::Draggable"
         }
       ],
+      "string": "Integridade",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "txtConfidencialidade",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
+      "string": "Confidencialidade",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "RespostaConfidencialidade",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "DndResposta",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\img\\acesso.png",
+                  "image": "DndResposta-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -232,31 +352,25 @@
       ]
     },
     {
-      "name": "Confidencialidade",
+      "name": "RespostaIntegridade",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "checkCollisionMask": true,
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "DndResposta",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\img\\confidencialidade.png",
+                  "image": "DndResposta-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -278,31 +392,25 @@
       ]
     },
     {
-      "name": "Integridade",
+      "name": "RespostaAcesso",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "checkCollisionMask": true,
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "DndResposta",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\img\\integridade.png",
+                  "image": "DndResposta-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -332,20 +440,6 @@
       "conditions": [
         {
           "type": {
-            "inverted": false,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Confidencialidade",
-            "txtConfidencialidade",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
             "inverted": true,
             "value": "MouseButtonPressed"
           },
@@ -354,28 +448,31 @@
             "Left"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "RespostaConfidencialidade",
+            "txtConfidencialidade",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
         }
       ],
       "actions": [
         {
           "type": {
             "inverted": false,
-            "value": "Delete"
+            "value": "ChangeColor"
           },
           "parameters": [
-            "Confidencialidade",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Delete"
-          },
-          "parameters": [
-            "txtConfidencialidade",
-            ""
+            "RespostaConfidencialidade",
+            "\"0;255;0\""
           ],
           "subInstructions": []
         }
@@ -404,7 +501,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Acesso",
+            "RespostaAcesso",
             "txtAcesso",
             "",
             "",
@@ -417,22 +514,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "Delete"
+            "value": "ChangeColor"
           },
           "parameters": [
-            "txtAcesso",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Delete"
-          },
-          "parameters": [
-            "Acesso",
-            ""
+            "RespostaAcesso",
+            "\"0;255;0\""
           ],
           "subInstructions": []
         }
@@ -461,7 +547,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Integridade",
+            "RespostaIntegridade",
             "txtIntegridade",
             "",
             "",
@@ -474,22 +560,211 @@
         {
           "type": {
             "inverted": false,
-            "value": "Delete"
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "RespostaIntegridade",
+            "\"0;255;0\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "DraggableBehavior::Dragged"
+          },
+          "parameters": [
+            "txtAcesso",
+            "Draggable"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "RespostaAcesso",
+            "txtAcesso",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "txtAcesso",
+            "=",
+            "62",
+            "=",
+            "521"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "DraggableBehavior::Dragged"
           },
           "parameters": [
             "txtIntegridade",
+            "Draggable"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "RespostaIntegridade",
+            "txtIntegridade",
+            "",
+            "",
             ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "txtIntegridade",
+            "=",
+            "320",
+            "=",
+            "521"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "DraggableBehavior::Dragged"
+          },
+          "parameters": [
+            "txtConfidencialidade",
+            "Draggable"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "RespostaConfidencialidade",
+            "txtConfidencialidade",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "txtConfidencialidade",
+            "=",
+            "576",
+            "=",
+            "521"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            "RespostaConfidencialidade"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "RespostaConfidencialidade",
+            "\"255;0;0\""
           ],
           "subInstructions": []
         },
         {
           "type": {
             "inverted": false,
-            "value": "Delete"
+            "value": "ChangeColor"
           },
           "parameters": [
-            "Integridade",
-            ""
+            "RespostaAcesso",
+            "\"255;0;0\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "RespostaIntegridade",
+            "\"255;0;0\""
           ],
           "subInstructions": []
         }
