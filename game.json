@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "j1c1",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -140,6 +140,31 @@
         "name": "DndResposta-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/AustieBostArrowMania-MEBe.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\AustieBostArrowMania-MEBe.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/SetaDir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\SetaDir.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/btnContinuar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\btnContinuar.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -150,11 +175,23 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/praia"
+      "referenceTo": "/layouts/j1c1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/teste"
+      "referenceTo": "/layouts/j1c2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/j1c3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/j2c1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/j2c2"
     }
   ],
   "externalEvents": [],
