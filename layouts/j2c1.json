@@ -24,13 +24,25 @@
     "zoomFactor": 0.86,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Group",
+      "objects": [
+        {
+          "name": "btnSetaDir"
+        },
+        {
+          "name": "txtIntroducao"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
       "angle": 0,
       "customSize": true,
-      "height": 224,
+      "height": 256,
       "layer": "",
       "locked": false,
       "name": "txtIntroducao",
@@ -79,6 +91,44 @@
         "b": 0,
         "g": 0,
         "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "*",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "NewBBText",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": " *",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "right",
+        "wordWrap": true
       }
     }
   ],
@@ -231,8 +281,34 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Group",
+            "300\n",
+            "400",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
       "events": []
     }
   ],
@@ -260,5 +336,10 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
 }
