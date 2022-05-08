@@ -192,6 +192,33 @@
         "name": "NewSprite-2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/sprBemVindo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\sprBemVindo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/btnSubmeter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\btnSubmeter.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/1636039768222.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\1636039768222.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -265,10 +292,23 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/j2c2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scnlogin"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scnverificapassword"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/hash"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

@@ -434,8 +434,6 @@
   ],
   "events": [
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -480,8 +478,6 @@
       "events": []
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -526,8 +522,6 @@
       "events": []
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -572,8 +566,6 @@
       "events": []
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -621,8 +613,6 @@
       "events": []
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -670,8 +660,6 @@
       "events": []
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -719,8 +707,6 @@
       "events": []
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
