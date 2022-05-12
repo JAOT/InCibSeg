@@ -219,57 +219,38 @@
         "name": "assets\\img\\1636039768222.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprTitulo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprTitulo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprBtnLogin-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprBtnLogin-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [
-    {
-      "name": "btnSetaDir",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\img\\SetaDir.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "objects": [],
   "objectsGroups": [],
   "variables": [],
   "layouts": [
@@ -299,7 +280,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/scnverificapassword"
+      "referenceTo": "/layouts/scnmain"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scnregisto"
     }
   ],
   "externalEvents": [],

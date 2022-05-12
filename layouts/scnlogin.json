@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7999999999999998,
+    "zoomFactor": 0.5399999999999996,
     "windowMask": false
   },
   "objectsGroups": [
@@ -39,6 +39,12 @@
         },
         {
           "name": "lblPassword"
+        },
+        {
+          "name": "txtNome"
+        },
+        {
+          "name": "lblemail"
         }
       ]
     }
@@ -58,6 +64,11 @@
       "name": "password",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "erro",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -70,8 +81,8 @@
       "name": "txtEmail",
       "persistentUuid": "511fe84f-658b-4f6a-aea2-36b7d521bcaa",
       "width": 0,
-      "x": 232,
-      "y": 347,
+      "x": 238,
+      "y": 227,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -86,25 +97,9 @@
       "name": "txtPassword",
       "persistentUuid": "1a7883ed-2d32-4859-bf89-ec85af4d8b3d",
       "width": 0,
-      "x": 232,
-      "y": 425,
+      "x": 238,
+      "y": 305,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 23,
-      "layer": "",
-      "locked": false,
-      "name": "lblEmail",
-      "persistentUuid": "7d3bb43f-3bdf-4db2-aa4a-7f0f6dfae275",
-      "width": 87,
-      "x": 232,
-      "y": 324,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -118,8 +113,8 @@
       "name": "lblPassword",
       "persistentUuid": "37790c6a-192a-4fb8-9052-d6cd15347e81",
       "width": 0,
-      "x": 232,
-      "y": 402,
+      "x": 238,
+      "y": 282,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -159,22 +154,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 23,
-      "layer": "",
-      "locked": false,
-      "name": "lblEmail",
-      "persistentUuid": "a17197af-71b4-4a16-803a-5b5fecd8055c",
-      "width": 87,
-      "x": 232,
-      "y": 307,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -182,8 +161,8 @@
       "name": "lblNome",
       "persistentUuid": "e50bfd0c-4300-4997-88fb-2c1f8957b7bf",
       "width": 0,
-      "x": 226,
-      "y": 222,
+      "x": 233,
+      "y": 114,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -198,8 +177,8 @@
       "name": "lblemail",
       "persistentUuid": "d421a67c-9a8c-43da-8a64-b6bb99813fad",
       "width": 0,
-      "x": 232,
-      "y": 323,
+      "x": 238,
+      "y": 204,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -214,9 +193,41 @@
       "name": "txtNome",
       "persistentUuid": "f4bc522d-fe99-4b06-a2ac-50d252fb97c5",
       "width": 0,
-      "x": 227,
-      "y": 257,
+      "x": 233,
+      "y": 137,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "lblConfirma",
+      "persistentUuid": "26c4310e-57d4-4648-a032-0f692596f660",
+      "width": 0,
+      "x": 248,
+      "y": 353,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "txtConfirmaPass",
+      "persistentUuid": "02c0ae1b-e2f7-4def-a010-99364aaa429f",
+      "width": 0,
+      "x": 257,
+      "y": 405,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -461,6 +472,49 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "lblConfirma",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Confirma a Password",
+      "font": "",
+      "characterSize": 21,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "txtConfirmaPass",
+      "tags": "",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "initialValue": "",
+        "placeholder": "Touch to start typing",
+        "fontResourceName": "",
+        "fontSize": 20,
+        "inputType": "text",
+        "textColor": "0;0;0",
+        "fillColor": "255;255;255",
+        "fillOpacity": 255,
+        "borderColor": "0;0;0",
+        "borderOpacity": 255,
+        "borderWidth": 1,
+        "readOnly": false,
+        "disabled": false
+      }
     }
   ],
   "events": [
@@ -696,7 +750,7 @@
             "\"POST\"",
             "\"application/json\"",
             "id",
-            ""
+            "erro"
           ],
           "subInstructions": []
         }

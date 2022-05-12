@@ -58,22 +58,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "btnSetaDir",
-      "persistentUuid": "8f5811d3-e846-4940-bd73-2a2556653117",
-      "width": 0,
-      "x": 225,
-      "y": 333,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -150,45 +134,13 @@
         {
           "type": {
             "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "btnSetaDir",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": [],
           "subInstructions": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectScaleTween"
-          },
-          "parameters": [
-            "btnSetaDir",
-            "Tween",
-            "\"EscalaSetaAumenta\"",
-            "btnSetaDir.ScaleX()+0.2",
-            "btnSetaDir.ScaleY()+0.2",
-            "\"elastic\"",
-            "1000",
-            "",
-            "yes"
-          ],
-          "subInstructions": []
-        }
-      ],
+      "actions": [],
       "events": []
     },
     {
@@ -196,19 +148,6 @@
       "conditions": [
         {
           "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "btnSetaDir",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
             "inverted": false,
             "value": "BuiltinCommonInstructions::Once"
           },
@@ -216,26 +155,7 @@
           "subInstructions": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectScaleTween"
-          },
-          "parameters": [
-            "btnSetaDir",
-            "Tween",
-            "\"EscalaSetaDiminui\"",
-            "1",
-            "1",
-            "\"elastic\"",
-            "1000",
-            "",
-            "yes"
-          ],
-          "subInstructions": []
-        }
-      ],
+      "actions": [],
       "events": []
     },
     {
@@ -249,19 +169,6 @@
           "parameters": [
             "",
             "Left"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "btnSetaDir",
-            "",
-            "",
-            ""
           ],
           "subInstructions": []
         }
