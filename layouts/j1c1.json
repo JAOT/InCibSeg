@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.98,
+    "zoomFactor": 0.94,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -51,8 +51,8 @@
       "locked": false,
       "name": "txtDefinicao",
       "persistentUuid": "d0ceeba6-4ca7-46ea-8e8c-4f4221d877e2",
-      "width": 640,
-      "x": 64,
+      "width": 736,
+      "x": 32,
       "y": 128,
       "zOrder": 2,
       "numberProperties": [],
@@ -92,7 +92,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "A cibersegurança, também conhecida como segurança digital,\né a prática de proteger as tuas informações digitais, dispositivos\ne recursos.\n\nTal inclui as tuas informações pessoais, contas, ficheiros,\nfotografias e até mesmo o teu dinheiro!\n\nSerás capaz de descobrir os três grandes pilares da ciber-segurança?",
+      "string": "A cibersegurança, também conhecida como segurança digital, é a prática de proteger as tuas informações digitais, dispositivos\ne recursos.\n\nTal inclui as tuas informações pessoais, contas, ficheiros, fotografias e até mesmo o teu dinheiro!\n\nSerás capaz de descobrir os três grandes pilares da ciber-segurança?",
       "font": "",
       "characterSize": 20,
       "color": {

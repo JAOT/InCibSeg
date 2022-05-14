@@ -1,16 +1,16 @@
 {
-  "b": 0,
+  "b": 12,
   "disableInputWhenNotFocused": true,
   "mangledName": "j1c2",
   "name": "j1c2",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
-  "r": 255,
+  "r": 20,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 165,
+  "v": 192,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1,
+    "zoomFactor": 0.8399999999999999,
     "windowMask": false
   },
   "objectsGroups": [
